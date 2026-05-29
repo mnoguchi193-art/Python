@@ -10,7 +10,7 @@ A Python learning and reference repository.
 |---|---|
 | [basics/](basics/) | data types, control flow, functions, comprehensions |
 | [data_structures/](data_structures/) | stack, queue, linked list, binary search tree |
-| [utilities/](utilities/) | file I/O, string helpers, datetime (JST) |
+| [utilities/](utilities/) | file I/O, string helpers, datetime (JST), 星座占いランキング |
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
 
 ## 実行方法 / How to Run
@@ -19,6 +19,7 @@ A Python learning and reference repository.
 python basics/data_types.py
 python data_structures/linked_list.py
 python standard_library/collections_demo.py
+python utilities/horoscope_ranking.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
