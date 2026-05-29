@@ -12,6 +12,7 @@ A Python learning and reference repository.
 | [data_structures/](data_structures/) | stack, queue, linked list, binary search tree |
 | [utilities/](utilities/) | file I/O, string helpers, datetime (JST) |
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
+| [apps/](apps/) | 星座占いランキング (daily horoscope ranking) |
 
 ## 実行方法 / How to Run
 
@@ -19,6 +20,7 @@ A Python learning and reference repository.
 python basics/data_types.py
 python data_structures/linked_list.py
 python standard_library/collections_demo.py
+python apps/horoscope_ranking.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
