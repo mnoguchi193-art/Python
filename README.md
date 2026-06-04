@@ -28,6 +28,7 @@ is runnable with **the standard library only** and prints a worked example.
 | [drug_discovery/](drug_discovery/) | 創薬・薬剤設計 | Lipinski rule of five, Tanimoto similarity, sequence alignment, pharmacology |
 | [clinical_decision_support/](clinical_decision_support/) | 臨床意思決定支援・予後予測 | diagnostic test (Bayes), ROC/AUC, Kaplan-Meier, logistic risk score |
 | [medical_llm/](medical_llm/) | 医療LLM・対話AI | BPE tokenizer, self-attention, decoding, RAG retrieval, dialogue safety |
+| [surgical_robotics/](surgical_robotics/) | 手術支援・ロボティクス | homogeneous transforms, kinematics, trajectory generation, motion scaling/tremor filter, PID |
 
 ## モジュール索引 / Module index
 
@@ -84,6 +85,15 @@ is runnable with **the standard library only** and prints a worked example.
 | `retrieval.py` | 知識への接地(RAG) | `TfidfRetriever.retrieve`, `build_prompt` | TF-IDF コサイン類似 |
 | `triage.py` | 対話の安全層 | `assess` | ルールベースのガードレール |
 
+### surgical_robotics — 手術支援・ロボティクス
+| File | 何を計算するか | 主な関数 / クラス | 前提・手法 |
+|---|---|---|---|
+| `transforms.py` | 座標フレーム間の剛体変換 | `Transform2D.compose`, `apply`, `inverse` | 2D 同次変換行列 |
+| `kinematics.py` | 順運動学・逆運動学 | `forward_kinematics`, `inverse_kinematics` | 平面2リンクアーム |
+| `trajectory.py` | 滑らかな軌道生成 | `CubicTrajectory`, `QuinticTrajectory` | 多項式補間・端点拘束 |
+| `motion_filter.py` | モーションスケーリング・手ぶれ除去 | `MotionScaler`, `ExponentialFilter`, `process_stream` | 一次ローパス |
+| `pid_control.py` | 閉ループ関節制御 | `PIDController`, `simulate` | PID・アンチワインドアップ |
+
 ## 分野を貫く数理 / Cross-cutting mathematics
 
 同じ数学的道具が分野をまたいで再利用されています。
@@ -94,6 +104,7 @@ is runnable with **the standard library only** and prints a worked example.
 - **動的計画法 / DP** — `drug_discovery/sequence_alignment`(Needleman-Wunsch)
 - **最小二乗・共分散** — `causal_inference/instrumental_variables`, `regression_discontinuity`, `mathematical_economics`
 - **確率推定・サンプリング** — `computational_social_science/streaming`, `medical_llm/sampling`
+- **行列・線形代数・フィードバック制御** — `surgical_robotics`(同次変換・運動学・PID)
 
 ## 実行方法 / How to Run
 
@@ -105,6 +116,7 @@ python computational_social_science/network.py
 python drug_discovery/lipinski.py
 python clinical_decision_support/diagnostic_test.py
 python medical_llm/retrieval.py
+python surgical_robotics/kinematics.py
 ```
 
 各 `.py` は `python <path>` で単体実行でき、`if __name__ == "__main__"` のデモが動作します。
@@ -112,7 +124,7 @@ python medical_llm/retrieval.py
 
 ## 注意 / Disclaimer
 
-`drug_discovery`・`clinical_decision_support`・`medical_llm` は **教育・参照目的** の実装です。医療機器ではなく、診断・治療・処方の判断に用いるものではありません。実際の臨床判断は必ず資格を持つ医療専門家に相談してください。
+`drug_discovery`・`clinical_decision_support`・`medical_llm`・`surgical_robotics` は **教育・参照目的** の実装です。医療機器ではなく、診断・治療・処方・手術の判断や制御に用いるものではありません。実際の臨床判断は必ず資格を持つ医療専門家に相談してください。
 
 These modules are for **education and reference only**. They are not medical
 devices and must not be used for diagnosis, treatment, or prescribing.
