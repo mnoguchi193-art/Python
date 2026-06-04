@@ -29,6 +29,7 @@ is runnable with **the standard library only** and prints a worked example.
 | [clinical_decision_support/](clinical_decision_support/) | 臨床意思決定支援・予後予測 | diagnostic test (Bayes), ROC/AUC, Kaplan-Meier, logistic risk score |
 | [medical_llm/](medical_llm/) | 医療LLM・対話AI | BPE tokenizer, self-attention, decoding, RAG retrieval, dialogue safety |
 | [surgical_robotics/](surgical_robotics/) | 手術支援・ロボティクス | homogeneous transforms, kinematics, trajectory generation, motion scaling/tremor filter, PID |
+| [ai_governance/](ai_governance/) | 医療AIのガバナンス・倫理 | explainability, fairness/bias, privacy (DP/k-anonymity), audit trail, SaMD regulation |
 
 ## モジュール索引 / Module index
 
@@ -94,6 +95,15 @@ is runnable with **the standard library only** and prints a worked example.
 | `motion_filter.py` | モーションスケーリング・手ぶれ除去 | `MotionScaler`, `ExponentialFilter`, `process_stream` | 一次ローパス |
 | `pid_control.py` | 閉ループ関節制御 | `PIDController`, `simulate` | PID・アンチワインドアップ |
 
+### ai_governance — 医療AIのガバナンス・倫理
+| File | 何を計算するか | 主な関数 / クラス | テーマ |
+|---|---|---|---|
+| `explainability.py` | 特徴量重要度・局所説明 | `permutation_importance`, `linear_contributions` | 説明可能性(ブラックボックス問題) |
+| `fairness.py` | 群間公平性・80%ルール | `fairness_report`, `passes_80_percent_rule` | バイアス |
+| `privacy.py` | 差分プライバシー・k-匿名性 | `private_count`, `k_anonymity` | プライバシー |
+| `accountability.py` | 改ざん検知付き監査証跡 | `AuditLog.append`, `verify` | 責任の所在 |
+| `regulatory.py` | SaMD リスク分類・GMLP適合 | `samd_category`, `PremarketChecklist` | 薬事規制 |
+
 ## 分野を貫く数理 / Cross-cutting mathematics
 
 同じ数学的道具が分野をまたいで再利用されています。
@@ -105,6 +115,7 @@ is runnable with **the standard library only** and prints a worked example.
 - **最小二乗・共分散** — `causal_inference/instrumental_variables`, `regression_discontinuity`, `mathematical_economics`
 - **確率推定・サンプリング** — `computational_social_science/streaming`, `medical_llm/sampling`
 - **行列・線形代数・フィードバック制御** — `surgical_robotics`(同次変換・運動学・PID)
+- **ハッシュ・乱数機構** — `ai_governance`(監査証跡のハッシュ連鎖・差分プライバシーの Laplace 機構)
 
 ## 実行方法 / How to Run
 
@@ -117,6 +128,7 @@ python drug_discovery/lipinski.py
 python clinical_decision_support/diagnostic_test.py
 python medical_llm/retrieval.py
 python surgical_robotics/kinematics.py
+python ai_governance/fairness.py
 ```
 
 各 `.py` は `python <path>` で単体実行でき、`if __name__ == "__main__"` のデモが動作します。
