@@ -17,6 +17,7 @@ A Python learning and reference repository.
 | [computational_social_science/](computational_social_science/) | network analysis, text/TF-IDF, agent-based model, big-data streaming sketches |
 | [drug_discovery/](drug_discovery/) | Lipinski rule of five, Tanimoto similarity, sequence alignment, pharmacology (Hill/PK) |
 | [clinical_decision_support/](clinical_decision_support/) | diagnostic test (Bayes), ROC/AUC, Kaplan-Meier survival, logistic risk score |
+| [medical_llm/](medical_llm/) | BPE tokenizer, self-attention, decoding strategies, RAG retrieval, dialogue safety triage |
 
 ## 実行方法 / How to Run
 
@@ -29,6 +30,7 @@ python causal_inference/difference_in_differences.py
 python computational_social_science/network.py
 python drug_discovery/lipinski.py
 python clinical_decision_support/diagnostic_test.py
+python medical_llm/retrieval.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
