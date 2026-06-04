@@ -31,6 +31,12 @@ is runnable with **the standard library only** and prints a worked example.
 | [surgical_robotics/](surgical_robotics/) | 手術支援・ロボティクス | homogeneous transforms, kinematics, trajectory generation, motion scaling/tremor filter, PID |
 | [ai_governance/](ai_governance/) | 医療AIのガバナンス・倫理 | explainability, fairness/bias, privacy (DP/k-anonymity), audit trail, SaMD regulation |
 
+### おまけ / Fun
+
+| Directory | Contents |
+|---|---|
+| [astrology/](astrology/) | 日付ごとに決定論的な星座占いランキング(エンタメ) |
+
 ## モジュール索引 / Module index
 
 各応用分野の「何を計算するか → 主な関数/クラス → 前提とする仮定」です。
@@ -129,6 +135,7 @@ python clinical_decision_support/diagnostic_test.py
 python medical_llm/retrieval.py
 python surgical_robotics/kinematics.py
 python ai_governance/fairness.py
+python astrology/horoscope.py
 ```
 
 各 `.py` は `python <path>` で単体実行でき、`if __name__ == "__main__"` のデモが動作します。
