@@ -16,6 +16,7 @@ A Python learning and reference repository.
 | [causal_inference/](causal_inference/) | potential outcomes, RCT, difference-in-differences, IV, regression discontinuity |
 | [computational_social_science/](computational_social_science/) | network analysis, text/TF-IDF, agent-based model, big-data streaming sketches |
 | [drug_discovery/](drug_discovery/) | Lipinski rule of five, Tanimoto similarity, sequence alignment, pharmacology (Hill/PK) |
+| [clinical_decision_support/](clinical_decision_support/) | diagnostic test (Bayes), ROC/AUC, Kaplan-Meier survival, logistic risk score |
 
 ## 実行方法 / How to Run
 
@@ -27,6 +28,7 @@ python mathematical_economics/supply_demand.py
 python causal_inference/difference_in_differences.py
 python computational_social_science/network.py
 python drug_discovery/lipinski.py
+python clinical_decision_support/diagnostic_test.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
