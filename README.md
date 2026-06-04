@@ -14,6 +14,7 @@ A Python learning and reference repository.
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
 | [mathematical_economics/](mathematical_economics/) | supply & demand, consumer & production theory, finance, game theory |
 | [causal_inference/](causal_inference/) | potential outcomes, RCT, difference-in-differences, IV, regression discontinuity |
+| [computational_social_science/](computational_social_science/) | network analysis, text/TF-IDF, agent-based model, big-data streaming sketches |
 
 ## 実行方法 / How to Run
 
@@ -23,6 +24,7 @@ python data_structures/linked_list.py
 python standard_library/collections_demo.py
 python mathematical_economics/supply_demand.py
 python causal_inference/difference_in_differences.py
+python computational_social_science/network.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
