@@ -13,6 +13,7 @@ A Python learning and reference repository.
 | [utilities/](utilities/) | file I/O, string helpers, datetime (JST) |
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
 | [mathematical_economics/](mathematical_economics/) | supply & demand, consumer & production theory, finance, game theory |
+| [causal_inference/](causal_inference/) | potential outcomes, RCT, difference-in-differences, IV, regression discontinuity |
 
 ## 実行方法 / How to Run
 
@@ -21,6 +22,7 @@ python basics/data_types.py
 python data_structures/linked_list.py
 python standard_library/collections_demo.py
 python mathematical_economics/supply_demand.py
+python causal_inference/difference_in_differences.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
