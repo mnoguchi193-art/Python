@@ -15,6 +15,7 @@ A Python learning and reference repository.
 | [patterns/](patterns/) | design patterns, e.g. command pattern (remote control) |
 | [political_science/](political_science/) | computational political science: voting methods, power indices, opinion dynamics |
 | [economics/](economics/) | computational economics: game theory, auction theory, stable matching |
+| [law/](law/) | computational law: defeasible legal reasoning, precedent networks, fair division |
 
 ## 実行方法 / How to Run
 
@@ -25,6 +26,7 @@ python standard_library/collections_demo.py
 python patterns/remote_control.py
 python political_science/voting_methods.py
 python economics/game_theory.py
+python law/legal_reasoning.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
