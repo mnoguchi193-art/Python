@@ -28,6 +28,7 @@ A Python learning and reference repository.
 | [ai/](ai/) | artificial intelligence from scratch: neural network (backprop), self-attention, Q-learning |
 | [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA cryptography |
 | [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
+| [robotics/](robotics/) | robotics (sense-plan-act): arm kinematics, A* path planning, Kalman filter |
 
 ## 実行方法 / How to Run
 
@@ -51,6 +52,7 @@ python cognitive_neuroscience/predictive_coding.py
 python ai/self_attention.py
 python computer_science/bloom_filter.py
 python information_science/information_theory.py
+python robotics/kinematics.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
