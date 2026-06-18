@@ -16,6 +16,7 @@ A Python learning and reference repository.
 | [political_science/](political_science/) | computational political science: voting methods, power indices, opinion dynamics |
 | [economics/](economics/) | computational economics: game theory, auction theory, stable matching |
 | [law/](law/) | computational law: defeasible legal reasoning, precedent networks, fair division |
+| [medicine/](medicine/) | computational medicine: SIR epidemics, survival analysis, diagnostic test evaluation |
 
 ## 実行方法 / How to Run
 
@@ -27,6 +28,7 @@ python patterns/remote_control.py
 python political_science/voting_methods.py
 python economics/game_theory.py
 python law/legal_reasoning.py
+python medicine/epidemic_sir.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
