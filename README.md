@@ -34,6 +34,7 @@ A Python learning and reference repository.
 | [aerospace/](aerospace/) | orbital mechanics, the rocket equation, aerodynamics & standard atmosphere |
 | [astronomy/](astronomy/) | stellar physics, cosmology (Hubble's law), exoplanet detection |
 | [physics/](physics/) | special relativity, the Ising model (phase transition), quantum well & tunneling |
+| [mathematics/](mathematics/) | number theory, the Mandelbrot set, automatic differentiation |
 
 ## 実行方法 / How to Run
 
@@ -63,6 +64,7 @@ python semiconductors/carrier_statistics.py
 python aerospace/orbital_mechanics.py
 python astronomy/stellar_physics.py
 python physics/special_relativity.py
+python mathematics/number_theory.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
