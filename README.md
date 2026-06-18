@@ -20,6 +20,7 @@ A Python learning and reference repository.
 | [sociology/](sociology/) | computational sociology: Schelling segregation, social network analysis, threshold cascades |
 | [psychology/](psychology/) | computational psychology: Rescorla-Wagner learning, drift diffusion, signal detection |
 | [philosophy/](philosophy/) | computational philosophy: propositional logic, modal logic (Kripke), abstract argumentation |
+| [history/](history/) | computational history: cliodynamics (secular cycles), radiocarbon dating, seriation |
 
 ## 実行方法 / How to Run
 
@@ -35,6 +36,7 @@ python medicine/epidemic_sir.py
 python sociology/schelling_segregation.py
 python psychology/rescorla_wagner.py
 python philosophy/propositional_logic.py
+python history/cliodynamics.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
