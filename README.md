@@ -27,6 +27,7 @@ A Python learning and reference repository.
 | [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding |
 | [ai/](ai/) | artificial intelligence from scratch: neural network (backprop), self-attention, Q-learning |
 | [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA cryptography |
+| [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
 
 ## 実行方法 / How to Run
 
@@ -49,6 +50,7 @@ python neuroscience/integrate_and_fire.py
 python cognitive_neuroscience/predictive_coding.py
 python ai/self_attention.py
 python computer_science/bloom_filter.py
+python information_science/information_theory.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
