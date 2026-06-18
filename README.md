@@ -21,6 +21,7 @@ A Python learning and reference repository.
 | [psychology/](psychology/) | computational psychology: Rescorla-Wagner learning, drift diffusion, signal detection |
 | [philosophy/](philosophy/) | computational philosophy: propositional logic, modal logic (Kripke), abstract argumentation |
 | [history/](history/) | computational history: cliodynamics (secular cycles), radiocarbon dating, seriation |
+| [literature/](literature/) | computational literary studies: stylometry (Burrows's Delta), narrative arcs, Zipf's law |
 
 ## 実行方法 / How to Run
 
@@ -37,6 +38,7 @@ python sociology/schelling_segregation.py
 python psychology/rescorla_wagner.py
 python philosophy/propositional_logic.py
 python history/cliodynamics.py
+python literature/stylometry.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
