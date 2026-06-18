@@ -23,6 +23,7 @@ A Python learning and reference repository.
 | [history/](history/) | computational history: cliodynamics (secular cycles), radiocarbon dating, seriation |
 | [literature/](literature/) | computational literary studies: stylometry (Burrows's Delta), narrative arcs, Zipf's law |
 | [meteorology/](meteorology/) | computational meteorology: Lorenz chaos, ensemble forecasting, atmospheric thermodynamics |
+| [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire neuron, Hopfield memory, STDP |
 
 ## 実行方法 / How to Run
 
@@ -41,6 +42,7 @@ python philosophy/propositional_logic.py
 python history/cliodynamics.py
 python literature/stylometry.py
 python meteorology/lorenz_system.py
+python neuroscience/integrate_and_fire.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
