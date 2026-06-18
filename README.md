@@ -25,6 +25,7 @@ A Python learning and reference repository.
 | [meteorology/](meteorology/) | computational meteorology: Lorenz chaos, ensemble forecasting, atmospheric thermodynamics |
 | [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire neuron, Hopfield memory, STDP |
 | [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding |
+| [ai/](ai/) | artificial intelligence from scratch: neural network (backprop), self-attention, Q-learning |
 
 ## 実行方法 / How to Run
 
@@ -45,6 +46,7 @@ python literature/stylometry.py
 python meteorology/lorenz_system.py
 python neuroscience/integrate_and_fire.py
 python cognitive_neuroscience/predictive_coding.py
+python ai/self_attention.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
