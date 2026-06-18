@@ -33,6 +33,7 @@ A Python learning and reference repository.
 | [semiconductors/](semiconductors/) | carrier statistics, PN-junction diode, MOSFET characteristics |
 | [aerospace/](aerospace/) | orbital mechanics, the rocket equation, aerodynamics & standard atmosphere |
 | [astronomy/](astronomy/) | stellar physics, cosmology (Hubble's law), exoplanet detection |
+| [physics/](physics/) | special relativity, the Ising model (phase transition), quantum well & tunneling |
 
 ## 実行方法 / How to Run
 
@@ -61,6 +62,7 @@ python quantum_computing/qubit_simulator.py
 python semiconductors/carrier_statistics.py
 python aerospace/orbital_mechanics.py
 python astronomy/stellar_physics.py
+python physics/special_relativity.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
