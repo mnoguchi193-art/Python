@@ -72,3 +72,17 @@ python biology/sequence_alignment.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
+
+## テスト / Tests
+
+すべてのモジュールが正常に実行されることを確認するスモークテスト。
+
+A smoke test runs every example module in a subprocess and asserts a clean exit,
+so a regression in any example is caught automatically.
+
+```bash
+python -m unittest discover tests
+# or
+python tests/test_smoke.py
+```
+
