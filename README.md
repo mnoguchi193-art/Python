@@ -26,6 +26,7 @@ A Python learning and reference repository.
 | [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire neuron, Hopfield memory, STDP |
 | [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding |
 | [ai/](ai/) | artificial intelligence from scratch: neural network (backprop), self-attention, Q-learning |
+| [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA cryptography |
 
 ## 実行方法 / How to Run
 
@@ -47,6 +48,7 @@ python meteorology/lorenz_system.py
 python neuroscience/integrate_and_fire.py
 python cognitive_neuroscience/predictive_coding.py
 python ai/self_attention.py
+python computer_science/bloom_filter.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
