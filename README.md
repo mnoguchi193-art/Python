@@ -17,6 +17,7 @@ A Python learning and reference repository.
 | [economics/](economics/) | computational economics: game theory, auction theory, stable matching |
 | [law/](law/) | computational law: defeasible legal reasoning, precedent networks, fair division |
 | [medicine/](medicine/) | computational medicine: SIR epidemics, survival analysis, diagnostic test evaluation |
+| [sociology/](sociology/) | computational sociology: Schelling segregation, social network analysis, threshold cascades |
 
 ## 実行方法 / How to Run
 
@@ -29,6 +30,7 @@ python political_science/voting_methods.py
 python economics/game_theory.py
 python law/legal_reasoning.py
 python medicine/epidemic_sir.py
+python sociology/schelling_segregation.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
