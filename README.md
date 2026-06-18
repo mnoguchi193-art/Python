@@ -30,6 +30,7 @@ A Python learning and reference repository.
 | [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
 | [robotics/](robotics/) | robotics (sense-plan-act): arm kinematics, A* path planning, Kalman filter |
 | [quantum_computing/](quantum_computing/) | qubit simulator, Grover's search, CHSH/Bell inequality |
+| [semiconductors/](semiconductors/) | carrier statistics, PN-junction diode, MOSFET characteristics |
 
 ## 実行方法 / How to Run
 
@@ -55,6 +56,7 @@ python computer_science/bloom_filter.py
 python information_science/information_theory.py
 python robotics/kinematics.py
 python quantum_computing/qubit_simulator.py
+python semiconductors/carrier_statistics.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
