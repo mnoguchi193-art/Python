@@ -36,6 +36,7 @@ A Python learning and reference repository.
 | [physics/](physics/) | special relativity, the Ising model (phase transition), quantum well & tunneling |
 | [mathematics/](mathematics/) | number theory, the Mandelbrot set, automatic differentiation |
 | [chemistry/](chemistry/) | equation balancing, reaction kinetics, acid-base equilibrium |
+| [biology/](biology/) | sequence alignment, the central dogma, population genetics |
 
 ## 実行方法 / How to Run
 
@@ -67,6 +68,7 @@ python astronomy/stellar_physics.py
 python physics/special_relativity.py
 python mathematics/number_theory.py
 python chemistry/equation_balancer.py
+python biology/sequence_alignment.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
