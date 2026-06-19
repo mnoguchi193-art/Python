@@ -26,7 +26,7 @@ A Python learning and reference repository.
 | [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire & Hodgkin-Huxley neurons, Hopfield memory, STDP, spike detection, Kuramoto sync, grid cells |
 | [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding, TD learning, ring attractor, RSA |
 | [ai/](ai/) | artificial intelligence from scratch: neural network, self-attention, Q-learning, INT8 quantization, BPE tokenizer, word embeddings, text generation |
-| [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA, roofline model, HyperLogLog, Merkle tree, CRDTs |
+| [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA, roofline model, HyperLogLog, Merkle tree, CRDTs, parallel speedup |
 | [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
 | [robotics/](robotics/) | robotics: arm kinematics, A* path planning, Kalman filter, balance control, RRT, particle filter, differential drive |
 | [quantum_computing/](quantum_computing/) | qubit simulator, Grover's search, CHSH/Bell inequality, error correction, the QEC threshold |
