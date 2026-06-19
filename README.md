@@ -24,7 +24,7 @@ A Python learning and reference repository.
 | [literature/](literature/) | computational literary studies: stylometry (Burrows's Delta), narrative arcs, Zipf's law |
 | [meteorology/](meteorology/) | computational meteorology: Lorenz chaos, ensemble forecasting, atmospheric thermodynamics |
 | [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire & Hodgkin-Huxley neurons, Hopfield memory, STDP, spike detection, Kuramoto sync, grid cells |
-| [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding |
+| [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding, TD learning, ring attractor, RSA |
 | [ai/](ai/) | artificial intelligence from scratch: neural network (backprop), self-attention, Q-learning, INT8 quantization |
 | [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA cryptography, the roofline model |
 | [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
