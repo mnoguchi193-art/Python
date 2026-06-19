@@ -37,6 +37,7 @@ A Python learning and reference repository.
 | [mathematics/](mathematics/) | number theory, the Mandelbrot set, automatic differentiation |
 | [chemistry/](chemistry/) | equation balancing, reaction kinetics, acid-base equilibrium |
 | [biology/](biology/) | sequence alignment, the central dogma, population genetics |
+| [ikigai/](ikigai/) | the science of a meaningful life: ikigai diagram, flow state, PERMA well-being |
 
 ## 実行方法 / How to Run
 
