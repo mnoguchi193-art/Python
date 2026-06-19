@@ -23,7 +23,7 @@ A Python learning and reference repository.
 | [history/](history/) | computational history: cliodynamics (secular cycles), radiocarbon dating, seriation |
 | [literature/](literature/) | computational literary studies: stylometry (Burrows's Delta), narrative arcs, Zipf's law |
 | [meteorology/](meteorology/) | computational meteorology: Lorenz chaos, ensemble forecasting, atmospheric thermodynamics |
-| [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire neuron, Hopfield memory, STDP, spike detection |
+| [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire & Hodgkin-Huxley neurons, Hopfield memory, STDP, spike detection, Kuramoto sync, grid cells |
 | [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding |
 | [ai/](ai/) | artificial intelligence from scratch: neural network (backprop), self-attention, Q-learning, INT8 quantization |
 | [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA cryptography, the roofline model |
