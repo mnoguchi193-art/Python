@@ -28,7 +28,7 @@ A Python learning and reference repository.
 | [ai/](ai/) | artificial intelligence from scratch: neural network, self-attention, Q-learning, INT8 quantization, BPE tokenizer, word embeddings, text generation |
 | [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA, roofline model, HyperLogLog, Merkle tree, CRDTs |
 | [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
-| [robotics/](robotics/) | robotics (sense-plan-act): arm kinematics, A* path planning, Kalman filter, balance control |
+| [robotics/](robotics/) | robotics: arm kinematics, A* path planning, Kalman filter, balance control, RRT, particle filter, differential drive |
 | [quantum_computing/](quantum_computing/) | qubit simulator, Grover's search, CHSH/Bell inequality, error correction, the QEC threshold |
 | [semiconductors/](semiconductors/) | carrier statistics, PN-junction diode, MOSFET characteristics |
 | [aerospace/](aerospace/) | orbital mechanics, the rocket equation, aerodynamics & standard atmosphere, RTG power, the landing burn |
