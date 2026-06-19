@@ -29,7 +29,7 @@ A Python learning and reference repository.
 | [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA cryptography |
 | [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
 | [robotics/](robotics/) | robotics (sense-plan-act): arm kinematics, A* path planning, Kalman filter |
-| [quantum_computing/](quantum_computing/) | qubit simulator, Grover's search, CHSH/Bell inequality |
+| [quantum_computing/](quantum_computing/) | qubit simulator, Grover's search, CHSH/Bell inequality, error correction |
 | [semiconductors/](semiconductors/) | carrier statistics, PN-junction diode, MOSFET characteristics |
 | [aerospace/](aerospace/) | orbital mechanics, the rocket equation, aerodynamics & standard atmosphere |
 | [astronomy/](astronomy/) | stellar physics, cosmology (Hubble's law), exoplanet detection |
