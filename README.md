@@ -25,7 +25,7 @@ A Python learning and reference repository.
 | [meteorology/](meteorology/) | computational meteorology: Lorenz chaos, ensemble forecasting, atmospheric thermodynamics |
 | [neuroscience/](neuroscience/) | computational neuroscience: integrate-and-fire & Hodgkin-Huxley neurons, Hopfield memory, STDP, spike detection, Kuramoto sync, grid cells |
 | [cognitive_neuroscience/](cognitive_neuroscience/) | predictive coding, Bayesian cue integration, population decoding, TD learning, ring attractor, RSA |
-| [ai/](ai/) | artificial intelligence from scratch: neural network, self-attention, Q-learning, INT8 quantization, BPE tokenizer, word embeddings, text generation |
+| [ai/](ai/) | artificial intelligence from scratch: neural network, self-attention, Q-learning, INT8 quantization, BPE tokenizer, word embeddings, text generation, world model |
 | [computer_science/](computer_science/) | advanced CS: Bloom filter, consistent hashing, RSA, roofline model, HyperLogLog, Merkle tree, CRDTs, parallel speedup |
 | [information_science/](information_science/) | information theory, Huffman coding, Hamming error correction |
 | [robotics/](robotics/) | robotics: arm kinematics, A* path planning, Kalman filter, balance control, RRT, particle filter, differential drive |
