@@ -31,7 +31,7 @@ A Python learning and reference repository.
 | [robotics/](robotics/) | robotics (sense-plan-act): arm kinematics, A* path planning, Kalman filter, balance control |
 | [quantum_computing/](quantum_computing/) | qubit simulator, Grover's search, CHSH/Bell inequality, error correction, the QEC threshold |
 | [semiconductors/](semiconductors/) | carrier statistics, PN-junction diode, MOSFET characteristics |
-| [aerospace/](aerospace/) | orbital mechanics, the rocket equation, aerodynamics & standard atmosphere, RTG power |
+| [aerospace/](aerospace/) | orbital mechanics, the rocket equation, aerodynamics & standard atmosphere, RTG power, the landing burn |
 | [astronomy/](astronomy/) | stellar physics, cosmology (Hubble's law), exoplanet detection |
 | [physics/](physics/) | special relativity, the Ising model (phase transition), quantum well & tunneling |
 | [mathematics/](mathematics/) | number theory, the Mandelbrot set, automatic differentiation |
