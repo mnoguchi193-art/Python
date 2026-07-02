@@ -12,7 +12,7 @@ A Python learning and reference repository.
 | [data_structures/](data_structures/) | stack, queue, linked list, binary search tree |
 | [utilities/](utilities/) | file I/O, string helpers, datetime (JST) |
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
-| [ai/](ai/) | AGI-inspired toy demos: neural net, Q-learning, A*, memory, cognitive agent, transfer learning, model-based RL (Dyna-Q) |
+| [ai/](ai/) | AGI-inspired toy demos: neural net, Q-learning, A*, memory, cognitive agent, transfer learning, model-based RL (Dyna-Q), genetic algorithm |
 
 ## 実行方法 / How to Run
 
