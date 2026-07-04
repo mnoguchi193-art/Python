@@ -12,6 +12,7 @@ A Python learning and reference repository.
 | [data_structures/](data_structures/) | stack, queue, linked list, binary search tree |
 | [utilities/](utilities/) | file I/O, string helpers, datetime (JST) |
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
+| [ai_algorithms/](ai_algorithms/) | BFS/DFS/A*, Q-learning, neural network, genetic algorithm, minimax |
 
 ## 実行方法 / How to Run
 
@@ -19,6 +20,7 @@ A Python learning and reference repository.
 python basics/data_types.py
 python data_structures/linked_list.py
 python standard_library/collections_demo.py
+python ai_algorithms/q_learning.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
