@@ -17,7 +17,7 @@ no external dependencies and no package manager.**
 | `data_structures/` | stack, queue, singly linked list, binary search tree |
 | `utilities/` | file I/O, string helpers, datetime (JST-aware) |
 | `standard_library/` | `collections`, `itertools`, `pathlib` demos |
-| `ai/` | AGI-inspired toy demos: neural net (backprop), Q-learning, A*, episodic/semantic memory, cognitive agent loop, feature-based transfer learning (multi-floor maze), model-based RL (Dyna-Q), genetic algorithm (string/knapsack/policy evolution), optimizer comparison (SGD/momentum/Adam), MCTS (tic-tac-toe), MCTS scaling studies (sims vs strength with minimax reference; game size vs saturation via doubling test on k-in-a-row) |
+| `ai/` | AGI-inspired toy demos: neural net (backprop), Q-learning, A*, episodic/semantic memory, cognitive agent loop, feature-based transfer learning (multi-floor maze), model-based RL (Dyna-Q), genetic algorithm (string/knapsack/policy evolution), optimizer comparison (SGD/momentum/Adam), MCTS (tic-tac-toe), MCTS scaling studies (sims vs strength with minimax reference; game size vs saturation via doubling test on k-in-a-row; 5x5 saturation hunt with extended ladder — note: runs ~4 min) |
 
 ## Running
 
