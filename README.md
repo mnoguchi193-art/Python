@@ -14,6 +14,7 @@ A Python learning and reference repository.
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
 | [ai_economics/](ai_economics/) | AI economics: token pricing, scaling laws, labor market, ROI |
 | [climate_economics/](climate_economics/) | climate economics: carbon pricing, DICE model, SCC, energy transition |
+| [hank_model/](hank_model/) | HANK model: household block (EGM), wealth distribution, fiscal & monetary policy |
 
 ## 実行方法 / How to Run
 
