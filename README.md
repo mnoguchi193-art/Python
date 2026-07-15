@@ -13,6 +13,7 @@ A Python learning and reference repository.
 | [utilities/](utilities/) | file I/O, string helpers, datetime (JST) |
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
 | [ai_economics/](ai_economics/) | AI economics: token pricing, scaling laws, labor market, ROI |
+| [climate_economics/](climate_economics/) | climate economics: carbon pricing, DICE model, SCC, energy transition |
 
 ## 実行方法 / How to Run
 
