@@ -19,6 +19,7 @@ A Python learning and reference repository.
 | [stemcell_islet/](stemcell_islet/) | Stem-cell islets for T1D: glucose-insulin model, differentiation, graft survival, closed loop |
 | [spatial_omics/](spatial_omics/) | Single-cell spatial omics: synthetic tissue, clustering, spatial stats, cell-cell communication |
 | [genai_education/](genai_education/) | GenAI & educational inequality: access divide, learning gains, cumulative dynamics, policy |
+| [replication_crisis/](replication_crisis/) | Psychology's replication crisis: power, publication bias, p-hacking, replication rate |
 
 ## 実行方法 / How to Run
 
