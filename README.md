@@ -21,6 +21,7 @@ A Python learning and reference repository.
 | [genai_education/](genai_education/) | GenAI & educational inequality: access divide, learning gains, cumulative dynamics, policy |
 | [replication_crisis/](replication_crisis/) | Psychology's replication crisis: power, publication bias, p-hacking, replication rate |
 | [consciousness_science/](consciousness_science/) | Consciousness science: integrated information (Φ), global workspace, bistable perception, metacognition |
+| [origin_of_life/](origin_of_life/) | Origin of life: autocatalytic (RAF) sets, quasispecies/error catastrophe, protocells, homochirality |
 
 ## 実行方法 / How to Run
 
