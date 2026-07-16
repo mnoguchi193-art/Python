@@ -15,6 +15,7 @@ A Python learning and reference repository.
 | [ai_economics/](ai_economics/) | AI economics: token pricing, scaling laws, labor market, ROI |
 | [climate_economics/](climate_economics/) | climate economics: carbon pricing, DICE model, SCC, energy transition |
 | [hank_model/](hank_model/) | HANK model: household block (EGM), wealth distribution, fiscal & monetary policy |
+| [cart_therapy/](cart_therapy/) | CAR-T therapy & immune reset: cell kinetics, B-cell reset, CRS, lupus (SLE) |
 
 ## 実行方法 / How to Run
 
