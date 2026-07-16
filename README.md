@@ -17,6 +17,7 @@ A Python learning and reference repository.
 | [hank_model/](hank_model/) | HANK model: household block (EGM), wealth distribution, fiscal & monetary policy |
 | [cart_therapy/](cart_therapy/) | CAR-T therapy & immune reset: cell kinetics, B-cell reset, CRS, lupus (SLE) |
 | [stemcell_islet/](stemcell_islet/) | Stem-cell islets for T1D: glucose-insulin model, differentiation, graft survival, closed loop |
+| [spatial_omics/](spatial_omics/) | Single-cell spatial omics: synthetic tissue, clustering, spatial stats, cell-cell communication |
 
 ## 実行方法 / How to Run
 
