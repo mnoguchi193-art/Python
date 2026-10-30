@@ -13,6 +13,7 @@ A Python learning and reference repository.
 | [utilities/](utilities/) | file I/O, string helpers, datetime (JST) |
 | [standard_library/](standard_library/) | collections, itertools, pathlib demos |
 | [ai_for_science/](ai_for_science/) | AI for Science: surrogate models, equation discovery, Bayesian optimization, inverse design, transit detection |
+| [synthetic_cell/](synthetic_cell/) | Synthetic cells: gene circuits, metabolism, minimal genome, size homeostasis, protocell division |
 
 ## 実行方法 / How to Run
 
@@ -21,6 +22,7 @@ python basics/data_types.py
 python data_structures/linked_list.py
 python standard_library/collections_demo.py
 python ai_for_science/equation_discovery.py
+python synthetic_cell/gene_circuits.py
 ```
 
 外部ライブラリは不要です (標準ライブラリのみ使用)。
